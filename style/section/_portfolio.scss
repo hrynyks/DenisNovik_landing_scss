@@ -1,0 +1,36 @@
+.portfolio {
+    padding: 113px 0 96px;
+    background: #F6F6F6;
+
+    &__title {
+        margin-bottom: 47px;
+    }
+
+    &__img {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    &__link {
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration-line: underline;
+        color: #070707;
+        display: block;
+        margin: 0 auto 96px;
+        text-align: center;
+        @media screen and (max-width: 1300px) {
+            font-size: 16px;
+        }
+        @media screen and (max-width: 900px) {
+            font-size: 14px;
+        }
+        @media screen and (max-width: 600px) {
+            font-size: 12px;
+        }
+    }
+
+    &__link:last-child {
+        margin-bottom: 0;
+    }
+}

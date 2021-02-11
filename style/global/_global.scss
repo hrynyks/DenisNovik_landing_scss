@@ -1,0 +1,20 @@
+html {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    background: #FFFFFF;
+    color: #070707;
+}
+
+.title {
+    font-size: 34px;
+    text-align: center;
+    @media screen and (max-width: 1300px) {
+        font-size: 28px;
+    }
+    @media screen and (max-width: 900px) {
+        font-size: 22px;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 16px;
+    }
+}
